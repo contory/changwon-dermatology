@@ -1,7 +1,7 @@
 # 네이버 서치어드바이저 등록
 
 ## 사이트 주소
-`https://xn--vb0b562al4gzsfbrm.com`
+`https://xn--vb0bq3eb8co9n65d4y2b.com`
 
 ## 소유확인
 네이버에서 발급한 **창원 사이트 전용 HTML 확인 파일**을 `public/` 폴더에 그대로 넣습니다.
@@ -14,14 +14,14 @@ npm run check
 ```
 
 ## 제출
-- 사이트맵: `https://xn--vb0b562al4gzsfbrm.com/sitemap.xml`
-- RSS: `https://xn--vb0b562al4gzsfbrm.com/rss.xml`
+- 사이트맵: `https://xn--vb0bq3eb8co9n65d4y2b.com/sitemap.xml`
+- RSS: `https://xn--vb0bq3eb8co9n65d4y2b.com/rss.xml`
 
 ## 우선 URL 검사 / 수집 요청
-1. `https://xn--vb0b562al4gzsfbrm.com/`
-2. `https://xn--vb0b562al4gzsfbrm.com/sangnam/`
-3. `https://xn--vb0b562al4gzsfbrm.com/jungdong/`
-4. `https://xn--vb0b562al4gzsfbrm.com/blog/`
+1. `https://xn--vb0bq3eb8co9n65d4y2b.com/`
+2. `https://xn--vb0bq3eb8co9n65d4y2b.com/sangnam/`
+3. `https://xn--vb0bq3eb8co9n65d4y2b.com/jungdong/`
+4. `https://xn--vb0bq3eb8co9n65d4y2b.com/blog/`
 
 각 허브의 6개 상세 URL도 수집 상태를 확인합니다.
 

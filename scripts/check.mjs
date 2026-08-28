@@ -97,7 +97,7 @@ const rss = fs.readFileSync(path.join(root,'rss.xml'),'utf8');
 if ((rss.match(/<item>/g)||[]).length !== 8) errors.push('expected 8 RSS items');
 if (!rss.includes('<content:encoded>')) errors.push('RSS full content is missing');
 const robots = fs.readFileSync(path.join(root,'robots.txt'),'utf8');
-if (!robots.includes('Sitemap: https://xn--vb0b562al4gzsfbrm.com/sitemap.xml')) errors.push('robots sitemap URL is wrong');
+if (!robots.includes('Sitemap: https://xn--vb0bq3eb8co9n65d4y2b.com/sitemap.xml')) errors.push('robots sitemap URL is wrong');
 
 const cssFiles = fs.readdirSync(path.join(root,'assets')).filter((n)=>n.endsWith('.css'));
 const jsFiles = fs.readdirSync(path.join(root,'assets')).filter((n)=>n.endsWith('.js'));

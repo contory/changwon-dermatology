@@ -235,7 +235,7 @@ function blogCard(post, heading = 'h3') {
 }
 
 function ctaBanner() {
-  return `<section class="section section-compact"><div class="container"><div class="cta-banner"><div class="cta-copy"><p class="section-kicker" style="color:#ead0ad">창원 지역 피부과 입점 안내</p><h2>창원피부과.com을<br>병원 홈페이지로 사용할 수 있습니다</h2><p>현재는 주식회사 지바가 운영하는 지역 피부정보 사이트입니다. 입점이 확정되면 병원명, 로고, 의료진, 실제 시설사진과 상담채널을 해당 병원 정보로 변경합니다.</p><div class="button-row">${button('/partner/', '병원 입점 안내', 'light')}${consultButton('입점 문의하기', 'home-partner', 'secondary')}</div></div><div class="cta-visual"><img src="/images/common/partner-hero.webp" alt="피부과 상담을 표현한 이미지" width="1600" height="1067" loading="lazy"></div></div></div></section>`;
+  return `<section class="section section-compact"><div class="container"><div class="cta-banner"><div class="cta-copy"><p class="section-kicker" style="color:#ead0ad">창원 지역 피부과 입점 안내</p><h2>상남동피부과.com을<br>병원 홈페이지로 사용할 수 있습니다</h2><p>현재는 주식회사 지바가 운영하는 지역 피부정보 사이트입니다. 입점이 확정되면 병원명, 로고, 의료진, 실제 시설사진과 상담채널을 해당 병원 정보로 변경합니다.</p><div class="button-row">${button('/partner/', '병원 입점 안내', 'light')}${consultButton('입점 문의하기', 'home-partner', 'secondary')}</div></div><div class="cta-visual"><img src="/images/common/partner-hero.webp" alt="피부과 상담을 표현한 이미지" width="1600" height="1067" loading="lazy"></div></div></div></section>`;
 }
 
 function hubSchemas(hub) {
@@ -352,7 +352,7 @@ function renderRegionalArticle(article) {
 
 function renderBlogIndex() {
   const pathName = '/blog/';
-  const body = `<section class="blog-index-hero"><div class="container"><p class="section-kicker">창원피부과.com 피부 정보</p><h1>피부 정보</h1><p>여드름·색소·리프팅·주사 시술과 피부질환을 알아볼 때 상담 전에 확인하면 좋은 내용을 어렵지 않게 정리합니다.</p></div></section><div class="container blog-index-grid">${blogPosts.map((post) => blogCard(post, 'h2')).join('')}</div>`;
+  const body = `<section class="blog-index-hero"><div class="container"><p class="section-kicker">상남동피부과.com 피부 정보</p><h1>피부 정보</h1><p>여드름·색소·리프팅·주사 시술과 피부질환을 알아볼 때 상담 전에 확인하면 좋은 내용을 어렵지 않게 정리합니다.</p></div></section><div class="container blog-index-grid">${blogPosts.map((post) => blogCard(post, 'h2')).join('')}</div>`;
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Blog',
@@ -400,7 +400,7 @@ const prosePages = {
   '/authors/': {
     title: `작성자 안내 | ${config.siteName}`,
     description: `${config.siteName} 편집팀과 운영사 정보를 안내합니다.`,
-    heading: '창원피부과.com 편집팀',
+    heading: '상남동피부과.com 편집팀',
     intro: `${config.publisher.editorialName}은 ${config.publisher.name}가 운영하는 콘텐츠 편집 조직입니다. 의료인이 아니며 공개자료 조사와 지역 정보 정리, 문장·이미지 검수를 담당합니다.`,
     sections: [
       ['주요 업무', '피부 관련 공개자료를 확인하고 창원·상남동·중동 생활권에서 상담 전에 물어볼 내용을 지역별로 정리합니다.'],
@@ -429,7 +429,7 @@ function renderProsePage(pathName, page) {
 
 function renderPartner() {
   const pathName = '/partner/';
-  const body = `<section class="partner-hero"><div class="partner-copy"><p class="section-kicker">창원 지역 피부과 유료 입점</p><h1>이미 구축된 창원피부과.com을<br>병원 홈페이지로 전환할 수 있습니다</h1><p>현재 검색 수집을 위한 지역 피부정보 사이트로 운영합니다. 입점이 확정되면 병원명과 로고, 의료진, 실제 시설사진, 진료과목과 상담채널을 병원의 실제 정보로 변경합니다.</p><div class="button-row">${consultButton('병원 입점 상담하기', 'partner-hero')}${button('#included', '포함 항목 보기', 'secondary')}</div></div><div class="partner-image"><img src="/images/common/partner-hero.webp" alt="피부과 입점 상담을 표현한 이미지" width="1600" height="1067"></div></section><section class="section section-white"><div class="container"><div class="section-head-center"><p class="section-kicker">병원 브랜드에 맞춰 전환</p><h2 class="section-title">입점 뒤에는 실제 병원 정보와 상담 동선을 적용합니다</h2><p class="section-desc">검색 순위나 캐러셀 표시를 보장하는 상품이 아니라 독립 웹사이트와 지역 콘텐츠를 운영하는 방식입니다.</p></div><div class="partner-benefits"><div class="partner-benefit"><h3>병원 브랜드 적용</h3><p>병원명, 로고, 메인 색상과 문구를 병원 브랜딩에 맞춰 변경합니다.</p></div><div class="partner-benefit"><h3>실제 의료정보 반영</h3><p>의료진, 진료과목, 주소·진료시간과 실제 사진을 병원 확인 후 적용합니다.</p></div><div class="partner-benefit"><h3>상담채널 직접 연결</h3><p>현재 지바 카카오채널을 병원 카카오, 전화와 네이버 예약 동선으로 변경합니다.</p></div></div></div></section><section id="included" class="section section-soft"><div class="container"><div class="section-head"><div><p class="section-kicker">입점 포함 항목</p><h2 class="section-title">병원 자료를 전달하면 홈페이지 전체를 실제 정보로 맞춥니다</h2></div></div><div class="criteria-grid"><div class="criteria-item"><span class="criteria-icon">${icon('person')}</span><h3>병원·의료진 소개</h3><p>병원 소개와 의료진 약력, 전문과목을 실제 자료로 구성합니다.</p></div><div class="criteria-item"><span class="criteria-icon">${icon('note')}</span><h3>진료·시술 페이지</h3><p>실제 운영하는 진료와 시술만 확인해 반영합니다.</p></div><div class="criteria-item"><span class="criteria-icon">${icon('pin')}</span><h3>위치·시간·주차</h3><p>주소, 진료시간, 휴진과 주차 정보를 실제 기준으로 적용합니다.</p></div><div class="criteria-item"><span class="criteria-icon">${icon('chat')}</span><h3>상담·예약 연결</h3><p>카카오톡, 전화와 네이버 예약 버튼을 병원 채널로 연결합니다.</p></div></div></div></section><section class="section section-dark"><div class="container section-head" style="margin-bottom:0"><div><p class="section-kicker" style="color:#e3c9a7">입점 비용과 운영 범위는 상담 후 안내합니다</p><h2 class="section-title">창원 지역 제휴 피부과를 모집합니다</h2><p class="section-desc" style="color:rgba(255,255,255,.72)">실제 병원 자료와 적용 범위를 확인한 뒤 전환 일정을 안내드립니다.</p></div>${consultButton('카카오로 입점 문의', 'partner-bottom', 'light')}</div></section>`;
+  const body = `<section class="partner-hero"><div class="partner-copy"><p class="section-kicker">창원 지역 피부과 유료 입점</p><h1>이미 구축된 상남동피부과.com을<br>병원 홈페이지로 전환할 수 있습니다</h1><p>현재 검색 수집을 위한 지역 피부정보 사이트로 운영합니다. 입점이 확정되면 병원명과 로고, 의료진, 실제 시설사진, 진료과목과 상담채널을 병원의 실제 정보로 변경합니다.</p><div class="button-row">${consultButton('병원 입점 상담하기', 'partner-hero')}${button('#included', '포함 항목 보기', 'secondary')}</div></div><div class="partner-image"><img src="/images/common/partner-hero.webp" alt="피부과 입점 상담을 표현한 이미지" width="1600" height="1067"></div></section><section class="section section-white"><div class="container"><div class="section-head-center"><p class="section-kicker">병원 브랜드에 맞춰 전환</p><h2 class="section-title">입점 뒤에는 실제 병원 정보와 상담 동선을 적용합니다</h2><p class="section-desc">검색 순위나 캐러셀 표시를 보장하는 상품이 아니라 독립 웹사이트와 지역 콘텐츠를 운영하는 방식입니다.</p></div><div class="partner-benefits"><div class="partner-benefit"><h3>병원 브랜드 적용</h3><p>병원명, 로고, 메인 색상과 문구를 병원 브랜딩에 맞춰 변경합니다.</p></div><div class="partner-benefit"><h3>실제 의료정보 반영</h3><p>의료진, 진료과목, 주소·진료시간과 실제 사진을 병원 확인 후 적용합니다.</p></div><div class="partner-benefit"><h3>상담채널 직접 연결</h3><p>현재 지바 카카오채널을 병원 카카오, 전화와 네이버 예약 동선으로 변경합니다.</p></div></div></div></section><section id="included" class="section section-soft"><div class="container"><div class="section-head"><div><p class="section-kicker">입점 포함 항목</p><h2 class="section-title">병원 자료를 전달하면 홈페이지 전체를 실제 정보로 맞춥니다</h2></div></div><div class="criteria-grid"><div class="criteria-item"><span class="criteria-icon">${icon('person')}</span><h3>병원·의료진 소개</h3><p>병원 소개와 의료진 약력, 전문과목을 실제 자료로 구성합니다.</p></div><div class="criteria-item"><span class="criteria-icon">${icon('note')}</span><h3>진료·시술 페이지</h3><p>실제 운영하는 진료와 시술만 확인해 반영합니다.</p></div><div class="criteria-item"><span class="criteria-icon">${icon('pin')}</span><h3>위치·시간·주차</h3><p>주소, 진료시간, 휴진과 주차 정보를 실제 기준으로 적용합니다.</p></div><div class="criteria-item"><span class="criteria-icon">${icon('chat')}</span><h3>상담·예약 연결</h3><p>카카오톡, 전화와 네이버 예약 버튼을 병원 채널로 연결합니다.</p></div></div></div></section><section class="section section-dark"><div class="container section-head" style="margin-bottom:0"><div><p class="section-kicker" style="color:#e3c9a7">입점 비용과 운영 범위는 상담 후 안내합니다</p><h2 class="section-title">창원 지역 제휴 피부과를 모집합니다</h2><p class="section-desc" style="color:rgba(255,255,255,.72)">실제 병원 자료와 적용 범위를 확인한 뒤 전환 일정을 안내드립니다.</p></div>${consultButton('카카오로 입점 문의', 'partner-bottom', 'light')}</div></section>`;
   return layout({ pathName, title: `병원 입점 안내 | ${config.siteName}`, description: `${config.siteName}을 실제 병원 정보와 상담채널로 전환해 사용하는 유료 입점 상품을 안내합니다.`, body, schemas: [websiteSchema(), breadcrumbSchema([{ name: '창원 피부과', href: '/' }, { name: '병원 입점', href: pathName }])], noindex: true, ogImage: '/images/common/partner-hero.webp' });
 }
 
@@ -449,7 +449,7 @@ writeFile(pathFor('/blog/'), renderBlogIndex());
 for (const post of blogPosts) writeFile(pathFor(`/blog/${post.slug}/`), renderBlogPost(post));
 for (const [pathname, page] of Object.entries(prosePages)) writeFile(pathFor(pathname), renderProsePage(pathname, page));
 writeFile(pathFor('/partner/'), renderPartner());
-writeFile(pathFor('/privacy/'), renderPolicy('/privacy/', '개인정보처리방침', '창원피부과.com은 홈페이지 안에서 직접 상담정보를 입력받지 않으며 외부 카카오톡 채널 연결을 사용합니다.', [
+writeFile(pathFor('/privacy/'), renderPolicy('/privacy/', '개인정보처리방침', '상남동피부과.com은 홈페이지 안에서 직접 상담정보를 입력받지 않으며 외부 카카오톡 채널 연결을 사용합니다.', [
   ['수집하는 정보', '현재 홈페이지 자체에서는 이름, 전화번호, 증상과 사진을 입력받는 별도 상담폼을 운영하지 않습니다. 카카오톡 채널에서 전달하는 정보는 해당 채널 운영 정책과 별도 안내를 따릅니다.'],
   ['분석 도구', '방문 통계를 설정하는 경우 쿠키와 접속 환경 정보가 수집될 수 있으며, 설정된 분석 도구와 이용 목적을 이 페이지에 추가로 고지합니다.'],
   ['문의', `${config.publisher.name} 카카오톡 채널을 통해 개인정보 관련 문의를 접수할 수 있습니다.`],
@@ -480,10 +480,10 @@ const rss = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:co
 writeFile('rss.xml', rss);
 writeFile('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${urlFor('/sitemap.xml')}\n`);
 writeFile('_headers', `/*\n  Cache-Control: public, max-age=0, must-revalidate\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  X-Frame-Options: SAMEORIGIN\n\n/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n\n/videos/*\n  Cache-Control: public, max-age=86400\n\n/images/*\n  Cache-Control: public, max-age=86400\n`);
-writeFile('_redirects', `https://changwon-dermatology.pages.dev/* ${origin}/:splat 301\nhttps://www.xn--vb0b562al4gzsfbrm.com/* ${origin}/:splat 301\n`);
+writeFile('_redirects', `https://changwon-dermatology.pages.dev/* ${origin}/:splat 301\nhttps://www.xn--vb0bq3eb8co9n65d4y2b.com/* ${origin}/:splat 301\n`);
 writeFile('llms.txt', `# ${config.siteName}\n\n${config.tagline}\n\n## Core pages\n- ${urlFor('/')} 창원 피부과\n- ${urlFor('/sangnam/')} 상남동 피부과\n- ${urlFor('/jungdong/')} 중동 피부과\n- ${urlFor('/blog/')} 피부 정보\n\n## Publisher\n- ${config.publisher.name}\n- ${urlFor('/about/')}\n- ${urlFor('/editorial-policy/')}\n\nThis website provides general information and is not a medical clinic in publisher mode.\n`);
 writeFile('humans.txt', `Site: ${config.siteName}\nPublisher: ${config.publisher.name}\nEditorial: ${config.publisher.editorialName}\nUpdated: ${TODAY}\n`);
-writeFile('manifest.webmanifest', JSON.stringify({ name: config.siteName, short_name: '창원피부과', start_url: '/', display: 'standalone', background_color: config.theme.background, theme_color: config.theme.primary, icons: [{ src: '/icons/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }, null, 2));
+writeFile('manifest.webmanifest', JSON.stringify({ name: config.siteName, short_name: '상남동피부과', start_url: '/', display: 'standalone', background_color: config.theme.background, theme_color: config.theme.primary, icons: [{ src: '/icons/favicon.svg', sizes: 'any', type: 'image/svg+xml' }] }, null, 2));
 
 console.log(`Built ${indexable.length} indexable URLs and ${regionalArticles.length + blogPosts.length} article pages into ${DIST}`);
 console.log(`Canonical origin: ${origin}`);

@@ -15,8 +15,8 @@
 - Node: 20 이상
 
 ## 3. 도메인 연결
-도메인 `창원피부과.com`을 Cloudflare에 추가한 뒤 Pages 프로젝트 Custom domains에서 연결합니다.
-Punycode는 `xn--vb0b562al4gzsfbrm.com`입니다.
+도메인 `상남동피부과.com`을 Cloudflare에 추가한 뒤 Pages 프로젝트 Custom domains에서 연결합니다.
+Punycode는 `xn--vb0bq3eb8co9n65d4y2b.com`입니다.
 
 `www` 호스트를 사용할 경우 `_redirects`에 설정된 대표 도메인으로 301 이동합니다.
 

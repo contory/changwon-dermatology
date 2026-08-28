@@ -1,13 +1,13 @@
 export const config = {
-  version: '1.0.0',
+  version: '1.2.0',
   mode: 'publisher',
-  domain: 'https://xn--vb0b562al4gzsfbrm.com',
-  displayDomain: '창원피부과.com',
-  siteName: '창원피부과.com',
+  domain: 'https://xn--vb0bq3eb8co9n65d4y2b.com',
+  displayDomain: '상남동피부과.com',
+  siteName: '상남동피부과.com',
   tagline: '창원·상남동·중동 피부 진료와 시술 정보를 지역별로 정리합니다.',
   publisher: {
     name: '주식회사 지바',
-    editorialName: '창원피부과.com 편집팀',
+    editorialName: '상남동피부과.com 편집팀',
     kakaoUrl: 'https://pf.kakao.com/_xfBcan',
   },
   clinic: {

@@ -1,3 +1,12 @@
+# V1.2 — 상남동피부과.com 도메인 전환
+
+- 서비스 도메인을 `상남동피부과.com` (`xn--vb0bq3eb8co9n65d4y2b.com`)으로 변경
+- 메인 랜딩 `/`의 핵심 키워드와 H1은 **창원 피부과** 그대로 유지
+- `/sangnam/`은 **상남동 피부과**, `/jungdong/`은 **중동 피부과** 타깃 그대로 유지
+- canonical, OG URL, WebSite/Organization/Article/ItemList URL, sitemap, RSS, robots, llms.txt를 새 도메인 기준으로 일괄 변경
+- 사이트 표시 브랜드와 편집팀 명칭을 `상남동피부과.com`으로 통일
+- 영상·이미지·캐러셀 18개·SEO/GEO 콘텐츠 구조는 V1.1 그대로 유지
+
 # Changelog
 
 ## 1.1.0
@@ -11,4 +20,4 @@
 - SEO/GEO/캐러셀/URL 구조 변경 없음
 
 ## 1.0.0
-- 창원피부과.com 최초 구축
+- 상남동피부과.com 최초 구축

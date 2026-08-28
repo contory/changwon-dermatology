@@ -1,4 +1,4 @@
-# 창원피부과.com V1.1
+# 상남동피부과.com V1.1
 
 창원·상남동·중동 생활권 피부정보 사이트입니다. 현재 기본 모드는 `publisher`이며 실제 의료기관으로 가장하지 않습니다.
 
@@ -46,9 +46,9 @@ npm run preview
 - Node.js: 20 이상
 
 ## 도메인
-- 한글: `창원피부과.com`
-- Punycode: `xn--vb0b562al4gzsfbrm.com`
-- canonical origin: `https://xn--vb0b562al4gzsfbrm.com`
+- 한글: `상남동피부과.com`
+- Punycode: `xn--vb0bq3eb8co9n65d4y2b.com`
+- canonical origin: `https://xn--vb0bq3eb8co9n65d4y2b.com`
 
 ## 문의 버튼
 기본 연결: `https://pf.kakao.com/_xfBcan`
